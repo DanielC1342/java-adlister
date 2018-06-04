@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "IndexServlet", urlPatterns = "/index")
+@WebServlet(name = "IndexServlet", urlPatterns = "/ads")
 public class IndexServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         ListAdsDao dao = new ListAdsDao();

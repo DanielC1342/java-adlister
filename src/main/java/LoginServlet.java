@@ -9,6 +9,9 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.getRequestDispatcher("login.jsp").forward(request,response);
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         if (request.getMethod().equalsIgnoreCase("post")) {
             String username = request.getParameter("username");
             String password = request.getParameter("password");
