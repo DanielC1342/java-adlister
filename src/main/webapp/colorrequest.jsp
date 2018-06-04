@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="/pickcolor" method="post">
-    <input type="color" name="color" placeholder="Pick a color">
+    <input type="text" name="color" placeholder="Pick a color">
     <input type="submit" value="submit">
 </form>
 </body>
