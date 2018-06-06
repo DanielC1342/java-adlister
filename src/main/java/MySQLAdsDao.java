@@ -1,8 +1,8 @@
 import java.sql.Connection;
 
-package com.codeup.adlister.dao;
-
-import com.codeup.adlister.models.Ad;
+//package com.codeup.adlister.dao;
+//
+//import com.codeup.adlister.models.Ad;
 import com.mysql.cj.jdbc.Driver;
 
 import java.io.FileInputStream;
