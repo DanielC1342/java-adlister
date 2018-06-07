@@ -19,6 +19,13 @@
         </div>
     </c:forEach>
 </div>
-
+<hr>
+<form action="ads/create">
+    <button>Add</button>
+</form>
+<form action="">
+    <button>Delete</button>
+</form>
+<hr>
 </body>
 </html>
